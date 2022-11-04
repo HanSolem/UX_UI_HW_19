@@ -1,71 +1,107 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Brian Solem's Portfolio</title>
-        <link href="css/index.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Brian Solem's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header class="navigation">
-            <div class="inline-block logo">
-                <nav class="inline-block">
-                    <img src="images/Logo.png" width="200px">
-
-            <ul>
-                <li>WORK</li>
-                <li>SKILLS</li>
-                <li>ABOUT</li>
-                <li>CONTACT</li>
-            </ul>
+        <nav class="navbar sticky-top navbar-expand-sm navbar-dark" style="background-color: #65c8d6;"><div class="container">
+            <a href="#" class="navbar-brand mb-0 h1">
+                <img class="d-inline-block align-top" src="/images/BrianSolem_Badge.svg" alt="" width="100"></a>
+                <button type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarNav" 
+                class="navbar-toggler" 
+                aria-controls="navbarNav"
+                aria-expanded="false" 
+                aria-label="Toggle navigation">            
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                          <a href="#" class="nav-link active">WORK</a>  
+                        </li>
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link">SKILLS</a>  
+                        </li>
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link">ABOUT</a>  
+                        </li>
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link">CONTACT</a>  
+                        </li>
+                    </ul>
+                </div>
         </nav>
+    </div>
     </div>
         </header>
         <section class="heroImg">
             <div class="content">
                 <div class="nameBrand"><h1>Hi, I'm Brian.</h1>
-                <p>Graphic Designer • UX/UI Designer • Amateur Painter • Movie Lover<br>Sports Fan • Comic Book Geek • Platypus King</p>
+                <h2>Graphic Designer. UX/UI Designer. Amateur Painter. Movie Lover. Sports Fan. Comic Book Geek. Platypus King.</h2>
+                <p>I'm a professional graphic designer based in Anoka, Minnesota just starting my UI Design journey. I’ve been a graphic designer for over two decades, and I hope to find my experience and passion for interesting, clever & quality design has given me the tools to excel in the UI design field.</p>
                 <button id="open">View Resume</button>
                 <button>Download Resume</button></div>
-                <div class="platypus"><img src="/images/Platypus.png" width="100%"></div>
+                <div class="platypus"><img src="/images/Platypus.png" width="80%"></div>
             </div>
         </section>
+     
+      <!--  My Work section coded using CSS Grid -->
+
         <section class="myWork">
-            <h2>My Work</h2>
-            <p>Here are some of the projects I’m most proud of, both UI and traditional design.</p>
+            <h1>My Work</h1>
+            <h2>Here are some of the projects I’m most proud of, both UI and traditional design.</h2>
             <div class="workGrid">
-                <div class="item1"><img src="/images/NSA_Mockup.png" alt=""><h4>NSA Redesign</h4>
+                <div class="item1"><img src="/images/NSA_Mockup.png" alt="NSA" style="max-width: 400px;"><h4>NSA Redesign</h4>
                     <button>View Case Study</button>
                 </div>
-                <div class="item2"><img src="/images/Collectively_CoverSlide.png" alt="" >
+                <div class="item2"><img src="/images/Collectively_CoverSlide.png" alt="Collectively" style="max-width: 400px;">
                     <h4>Collectively</h4>
                     <button>View Case Study</button>
                 </div>
-                <div class="item3"><img src="/images/Portfolio.png" alt="" >
+                <div class="item3"><img src="/images/Portfolio.png" alt="Zombie" style="max-width: 400px;">
                     <h4>Graphic Design</h4>
                     <button>View Portfolio</button>
                 </div>
             </div>
         </section>
+
         <!--  My UX Skills section coded using CSS flex -->
+            
         <section class="mySkills">
-            <h2>My Skills</h2>
+            <h1>My Skills</h1>
             <p>Throughout the years, I’ve been able to add more and more skills to my designer toolbox, from the Adobe basics of InDesign, Photoshop and Illustrator, to After Effects and Premiere Pro, and on to UX/UI Design tools, such as Adobe XD and Figma, as well as a little coding thrown in for good measure. I pride myself on what I’ve learned and what I can do as a creative with these new skills, so learning and continuing to grow my toolbox is very important to me. A few of the skills I’ve picked up along the way.</p>
             <div class="flexContainer">
-                <div width="30%"><img src="/images/INFORMATIONARCH.jpg" alt="">
+                <div width="30%"><img src="/images/INFORMATIONARCH.jpg" alt="" style="max-width: 300px;">
                 <h3>INFORMATION ARCHITECTURE</h3>
                 <p>Dorkus molorkus electromicide smell ya later there's no need to murmur a law requiring ducks to wear long pants she. u.i. a law requiring ducks to wear long pants velocitator crayola oblongata fatard scratchtasia</p></div>
-                <div width="30%"><img src="/images/WIREFRAMING.jpg" alt=""><h3>PROTOTYPING</h3>
+                <div width="30%"><img src="/images/WIREFRAMING.jpg" alt="" style="max-width: 300px;"><h3>PROTOTYPING</h3>
                 <p>Microcalifragilistics hot jazz music jumping box well, you all know what laughter sounds like. okely dokely dead serious about up and at them liberty log california cheeseburger yoink needs more dog liberty log avoision baby guts</p></div>
-                <div width="30%"><img src="/images/DESIGN.jpg" alt=""><h3>VISUAL DESIGN</h3>
+                <div width="30%"><img src="/images/DESIGN.jpg" alt="" style="max-width: 300px;"><h3>VISUAL DESIGN</h3>
                 <p>Joy, excitement, looking go to your room, lisa grandpas little helper flanswered superliminal brassafrax fantastipotamus telepanhandling yoink eat our shirts unpossible poochie death threats rambunctious yahoos wiggle puppy</p></div>
          
         </section>
-        <div class="modal-container" id="modal_container">
-            <div class="modal">
-                <img src="/images/BrianSolem_Resume.png" width="100%">
-                <button id="close">Close</button>
-            </div>
+
+    <!--- MODAL -->
+<section>
+    <div class="modal-container" id="modal_container">
+        <div class="modal">
+            <img src="/images/BrianSolem_Resume.png" alt="Resume" width="50%">
+            <button id="close">Close</button>
         </div>
-        <footer>
+    </div>
+</section>
+
+        
+    <footer>
             <ul>
                <li>ABOUT</li>
                 <li>SKILLS</li>
@@ -73,6 +109,11 @@
                 <li>CONTACT</li>
             </ul>
         </footer>
+
+
     </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
 </html>
