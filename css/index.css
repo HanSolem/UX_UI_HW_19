@@ -45,14 +45,12 @@ li {
     max-width: 1000px;
 }
 .content button {
-    font-size: 14px;
     padding: 10px 15px;
     margin-right: 20px;
     margin-bottom: 20px;
     background-color: #65C8D6;
     color: white;
     border: 0;
-    width: 150px;
 }
 h1 {
     font-size: 60px;
@@ -110,48 +108,38 @@ h4 {
 }
 .item1 {
     grid-area: nsa;
-    font-size: 14px;
     text-align: center;
-    color: #3C4048;    
     padding: 5px;
-    max-width: 400px;
+    max-width: 300px;
   }
 
 .item2 {
     grid-area: collectively;
-    font-size: 14px;
     text-align: center;
-    color: #3C4048;    
     padding: 5px;
-    max-width: 400px;
+    max-width: 300px;
 
   }
 .item3 {
     grid-area: portfolio;
-    font-size: 14px;
     text-align: center;
-    color: #3C4048;    
     padding: 5px;
-    max-width: 400px;
+    max-width: 300px;
 
   }
 section {
     margin: 100px;
-
 }
+
 button {
-    font-size: 14px;
+    font-size: 16px;
     padding: 10px 15px;
     background-color: #65C8D6;
     color: white;
     border: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
-.buttonContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .modal-container {
     background-color: rgba(0, 0, 0, 0.6);
@@ -188,34 +176,39 @@ button {
     .workGrid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-auto-rows: 200px;
+
       }
       .item1 {
         grid-column-start: 1;
         grid-column-end: 4;
         grid-row-start: 1;
         grid-row-end: 3;
+        margin: 20px;
       }
       .item1 img {
-        max-width: 200px;
+        max-width: 400px;
     }
       .item2 {
         grid-column-start: 1;
         grid-column-end: 4;
         grid-row-start: 3;
         grid-row-end: 5;
+        margin: 20px;
+
       }
       .item2 img {
-        max-width: 200px;
+        max-width: 400px;
     }
       .item3 {
         grid-column-start: 1;
         grid-column-end: 4;
         grid-row-start: 5;
         grid-row-end: 7;
+        margin: 20px;
+
       }
       .item3 img {
-        max-width: 200px;
+        max-width: 400px;
     }
     .content {
         display: grid;
@@ -252,7 +245,7 @@ button {
         padding: 2px;
     }
     section {
-        margin: 10px;
+        margin: 50px;
 
     }
 }
