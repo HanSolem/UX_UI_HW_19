@@ -11,7 +11,7 @@ nav {
 }
 nav ul {
     list-style: none;
-    padding: 10px;
+    padding: 20;
 }
 .heroImg {
     min-height: 300px;
@@ -146,6 +146,7 @@ button {
     background-color: #65C8D6;
     color: white;
     border: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 .buttonContainer {
     display: flex;
@@ -174,7 +175,7 @@ button {
 }
 
 .modal {
-    max-height: 75%;
+    max-height: 100%;
     text-align: center;
 }
 
