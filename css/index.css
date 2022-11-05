@@ -95,7 +95,7 @@ h3 {
 h4 {
     padding: 10px 15px;
     color: #3C4048;
-    font-size: 18px;
+    font-size: 22px;
     font-family: 'Poppins';
     font-weight: bold;
     text-align: center;
@@ -125,7 +125,6 @@ h4 {
     max-width: 400px;
 
   }
-
 .item3 {
     grid-area: portfolio;
     font-size: 14px;
@@ -135,9 +134,8 @@ h4 {
     max-width: 400px;
 
   }
-
 section {
-    margin: 30px;
+    margin: 100px;
 
 }
 button {
