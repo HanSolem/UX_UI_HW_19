@@ -12,7 +12,22 @@
 
 
     </head>
+    <div id="modal-overlay">
+        <div id="modal">
+      
+      
+          <div class="modal-content">
+            <img src="./images/BrianSolem_Resume.png" width="70%">
+          </div>
+      
+          <div class="modal-footer">
+            <button id="close-modal">Close</button>
+          </div>
+      
+        </div>
+      </div>
     <body>
+        
         <nav class="navbar sticky-top navbar-expand-sm navbar-dark" style="background-color: #65c8d6;"><div class="container">
             <a href="#" class="navbar-brand mb-0 h1">
                 <img class="d-inline-block align-top" src="./images/BrianSolem_Badge.svg" alt="" width="150"></a>
@@ -50,9 +65,9 @@
                 <div class="nameBrand"><h1>Hi, I'm Brian.</h1>
                 <h2>Graphic Designer. UX/UI Designer. Amateur Painter. Movie Lover. Sports Fan. Comic Book Geek. Platypus King.</h2>
                 <p>I'm a professional graphic designer based in Anoka, Minnesota just starting my UI Design journey. I’ve been a graphic designer for over two decades, and I hope to find my experience and passion for interesting, clever & quality design has given me the tools to excel in the UI design field.</p>
-                <button id="open">View Resume</button>
+                <!-- <button id="open">View Resume</button> -->
                 <button>Download Resume</button></div>
-                <div class="platypus"><img src="./images/Platypus.png" width="80%"></div>
+                <div class="platypus"><img src="./images/Platypus.svg" width="80%"></div>
             </div>
         </section>
      
@@ -116,16 +131,22 @@
     <!--- About Me -->
     <section class="aboutMe">
         <div class="aboutMeContent">
-            <div class="platypus"><img src="./images/Murray.png" width="80%"></div>
+            <div class="murray"><img src="./images/Murray.png" width="80%"></div>
             <div class="nameBrand"><h1>A little about me.</h1>
 
             <p>I’ve been a designer in the corporate world as well as freelance, so I’ve worked with all types of clients, from Fortune 500 corporations to small plumbing companies, but no matter who the client is, the design is prority. Being able to use my skills to help others solve problems, and seeing the excitement a client has for a finished piece always makes me smile. I  value communication and collaboration, but I’m also a self-starter, able to begin projects and see them through to completion, as well as see ways to improve upon projects that others may miss.<br><br>
             
             I have also been the go-to designer for the Minnesota/Dakotas Chapter of the Cystic Fibrosis Foundation since 2009, designing much of their event collateral, and am currently the only two-time recipient of their “Above & Beyond” Award - in 2013 & 2017 - for my commitment to their cause. Not to brag, but former WCCO News anchor and Broadcast Hall of Fame inductee Don Shelby has only won it once.<br><br>
             I also have a vast amount of useless knowledge about the Simpsons, Comic Books & 80’s sitcoms, and if you’d like, I can regale you with stories about the filming of the movie “The Mighty Ducks,” and sometimes I like to Photoshop pictures of my dog, Murray.</p>
+            <button id="open-modal">View Resume</button>
+            
+
             </div>
         </div>
+        
     </section>
+
+    
         
     <footer>
             <ul>
@@ -141,7 +162,6 @@
     <script src="assets/js/jquery-1.11.1.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/jquery.backstretch.min.js"></script>
-    <script src="assets/js/scripts.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
