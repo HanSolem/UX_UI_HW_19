@@ -24,6 +24,36 @@ nav ul {
     margin: 0 auto;
     justify-content: space-evenly;
     align-items: center;
+
+}
+
+.aboutMeContent {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    margin: 20px;
+    justify-content: space-evenly;
+    align-items: center;    
+
+}
+.content {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    grid-template-rows: auto;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.mySkills2Content {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: auto;
+    margin: 20px;
+    justify-content: space-evenly;
+    align-items: center;    
+
 }
 footer {
     background-color: #3C4048;
@@ -141,71 +171,6 @@ button {
 }
 
 
-/* .modal-container {
-    background-color: rgba(0, 0, 0, 0.6);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    opacity: 0;
-    pointer-events: none;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    transition: opacity 0.3s ease;
-}
-
-.modal-container.show {
-    opacity: 1;
-    pointer-events: auto;
-}
-
-.modal {
-    max-height: 100%;
-    text-align: center;
-}
-
-.modal-dialog {
-    max-width: 800px;
-    margin: 30px auto;
-}
-
-.modal-backdrop.in {
-    filter: alpha(opacity=7);
-    opacity: 0.7;
-}
- 
-.modal-content {
-    background: none;
-    border: 0;
-    -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
-    -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
-}
- 
-.modal-body {
-    padding: 0 25px 25px 25px;
-}
- 
-.modal-header {
-    padding: 25px 25px 15px 25px;
-    text-align: right;
-}
- 
-.modal-header, .modal-footer {
-    border: 0;
-}
- 
-.modal-header .close {
-    float: none;
-    margin: 0;
-    font-size: 36px;
-    color: #fff;
-    font-weight: 300;
-    text-shadow: none;
-    opacity: 1;
-} */
-
 .modal-dialog {
     max-width: 800px;
     margin: 30px auto;
@@ -238,8 +203,28 @@ opacity:1;
     .workGrid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+    }
+    .mySkills2Content {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: auto;
+            margin: 20px;
+            justify-content: space-evenly;
+            align-items: center; 
+    }
+    .skillsList {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    .myPortfolio {
+        opacity: 0;
+        width: 0%;
+    }
 
-      }
+    .myPortfolio img {
+        max-width: 400px;
+
+    }
       .item1 {
         grid-column-start: 1;
         grid-column-end: 4;
