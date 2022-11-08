@@ -22,7 +22,7 @@ nav ul {
 
 .aboutMeContent {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 60% 40%;
     grid-template-rows: auto;
     margin: 20px;
     justify-content: space-evenly;
@@ -56,7 +56,6 @@ nav ul {
 
 .murray img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    max-height: 400px;
 
 }
 
@@ -100,15 +99,6 @@ p {
     padding: 5px;
     text-align: center;
     margin: 50px;
-}
-.aboutMeContent {
-    display: inline-flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    font-family: 'Poppins';
-    column-gap: 20px;
-    padding: 5px;
 }
 
 h2 {
@@ -181,6 +171,18 @@ h4 {
 
 button {
     font-size: 16px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #65C8D6;
+    color: white;
+    border: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.button {
+    font-size: 16px;
+    font-family: "Poppins";
     padding: 10px 15px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -293,7 +295,8 @@ opacity:1;
       
       .aboutMeContent {
         display: flex;
-        flex-direction: column;    
+        flex-direction: column;
+        padding: 0px;    
     }
 
     footer {
